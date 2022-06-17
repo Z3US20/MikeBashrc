@@ -67,10 +67,10 @@ function bashrc() {
 
 #------------------------FS-commands---------------------------------
 
-alias dfscr="./dfsc.sh restart"
+alias retard="./dfsc.sh restart"
 alias comp="./dfsc.sh composer"
 alias const="./dfsc.sh constants"
-alias webpack="npm run webpack-dev-w"
+alias jetpack="npm run webpack-dev-w"
 
 function dfsc() {
     if [[ $1 == retard ]]; then
